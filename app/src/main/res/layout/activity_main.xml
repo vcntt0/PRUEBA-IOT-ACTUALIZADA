@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Panel de Control IoT"
+        android:text="Control de Basurero Inteligente"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_marginTop="32dp"
@@ -19,7 +19,7 @@
         android:id="@+id/btnConnectBluetooth"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Conectar a Dispositivo Bluetooth" />
+        android:text="Conectar al Basurero (Bluetooth)" />
 
     <TextView
         android:id="@+id/tvStatus"
@@ -34,6 +34,6 @@
         android:id="@+id/btnSimulateData"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Capturar Datos de Sensor" />
+        android:text="Leer Nivel de Basura y Proximidad" />
 
 </LinearLayout>
